@@ -1,0 +1,11 @@
+Simulation vs theory verification
+=================================
+Metric: max |log10(sim BER) - log10(theory BER)| over points
+with >= 10 observed errors.
+
+BPSK: max log10 deviation = 0.050 over 11 points (worst point: Eb/N0=8 dB)
+  points with <10 errors (excluded): 0
+QPSK: max log10 deviation = 0.056 over 11 points (worst point: Eb/N0=10 dB)
+  points with <10 errors (excluded): 0
+QAM16: max log10 deviation = 0.024 over 11 points (worst point: Eb/N0=10 dB)
+  points with <10 errors (excluded): 0
